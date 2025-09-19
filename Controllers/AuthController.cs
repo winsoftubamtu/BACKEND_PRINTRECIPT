@@ -41,12 +41,15 @@ namespace finalhotelAPI.Controllers
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
+      
+
             var claims = new[]
             {
-                new Claim("UserId", user.Userid.ToString()),
-                new Claim("Username", user.Username),
-                new Claim("StoreName", user.Storename)
+                 new Claim(ClaimTypes.NameIdentifier, user.Userid.ToString()),
+                 new Claim("Username", user.Username),
+                 new Claim("StoreName", user.Storename)
             };
+
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],

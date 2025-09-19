@@ -42,6 +42,24 @@ namespace finalhotelAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
+            // Add CORS policy
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowIonicApp",
+                    policy =>
+                    {
+                        //policy.WithOrigins("http://localhost:8100") // Ionic dev server
+                        //      .AllowAnyHeader()
+                        //      .AllowAnyMethod();
+
+                        policy.AllowAnyOrigin()
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+
+                    });
+            });
+            builder.Services.AddAuthentication(); // if using JWT or Identity
+            builder.Services.AddAuthorization();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -50,6 +68,8 @@ namespace finalhotelAPI
 
 
             var app = builder.Build();
+
+           
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -60,6 +80,9 @@ namespace finalhotelAPI
 
             app.UseHttpsRedirection();
 
+
+            // Enable CORS before authentication/authorization
+            app.UseCors("AllowIonicApp");
 
             app.UseAuthentication();
             app.UseAuthorization();
