@@ -18,6 +18,8 @@ public partial class WebDbContext : DbContext
 
     public virtual DbSet<Item> Items { get; set; }
 
+    public virtual DbSet<Purchase> Purchases { get; set; }
+
     public virtual DbSet<Transaction> Transactions { get; set; }
 
     public virtual DbSet<Transactionitem> Transactionitems { get; set; }
@@ -50,6 +52,39 @@ public partial class WebDbContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Items)
                 .HasForeignKey(d => d.Userid)
                 .HasConstraintName("items_userid_fkey");
+        });
+
+        modelBuilder.Entity<Purchase>(entity =>
+        {
+            entity.HasKey(e => e.Purchaseid).HasName("purchases_pkey");
+
+            entity.ToTable("purchases");
+
+            entity.Property(e => e.Purchaseid)
+                .UseIdentityAlwaysColumn()
+                .HasColumnName("purchaseid");
+            entity.Property(e => e.Itemname)
+                .HasMaxLength(100)
+                .HasColumnName("itemname");
+            entity.Property(e => e.Paymentmethod)
+                .HasMaxLength(20)
+                .HasColumnName("paymentmethod");
+            entity.Property(e => e.Priceatpurchase)
+                .HasPrecision(10, 2)
+                .HasColumnName("priceatpurchase");
+            entity.Property(e => e.Purchasedate)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp without time zone")
+                .HasColumnName("purchasedate");
+            entity.Property(e => e.Quantity)
+                .HasMaxLength(50)
+                .HasColumnName("quantity");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Purchases)
+                .HasForeignKey(d => d.Userid)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("purchases_userid_fkey");
         });
 
         modelBuilder.Entity<Transaction>(entity =>
@@ -117,9 +152,14 @@ public partial class WebDbContext : DbContext
             entity.Property(e => e.Userid)
                 .UseIdentityAlwaysColumn()
                 .HasColumnName("userid");
+            entity.Property(e => e.Address)
+                .HasMaxLength(200)
+                .HasColumnName("address");
+            entity.Property(e => e.Expirydate).HasColumnName("expirydate");
             entity.Property(e => e.Passwordhash)
                 .HasMaxLength(200)
                 .HasColumnName("passwordhash");
+            entity.Property(e => e.Startdate).HasColumnName("startdate");
             entity.Property(e => e.Storename)
                 .HasMaxLength(100)
                 .HasColumnName("storename");

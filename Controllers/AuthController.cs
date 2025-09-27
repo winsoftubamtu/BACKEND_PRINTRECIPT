@@ -6,6 +6,7 @@ using System.Text;
 using finalhotelAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using finalhotelAPI.Data;
+using System.Net;
 
 namespace finalhotelAPI.Controllers
 {
@@ -33,7 +34,7 @@ namespace finalhotelAPI.Controllers
             }
 
             var token = GenerateJwtToken(user);
-            return Ok(new { Token = token, StoreName = user.Storename });
+            return Ok(new { Token = token, StoreName = user.Storename, Passwordhash = user.Passwordhash, Expirydate=user.Expirydate, Address=user.Address });
         }
 
         private string GenerateJwtToken(User user)
@@ -47,7 +48,10 @@ namespace finalhotelAPI.Controllers
             {
                  new Claim(ClaimTypes.NameIdentifier, user.Userid.ToString()),
                  new Claim("Username", user.Username),
-                 new Claim("StoreName", user.Storename)
+                 new Claim("StoreName", user.Storename),
+                 new Claim("Passwordhash", user.Passwordhash),
+                 new Claim("Expirydate", user.Expirydate.HasValue ? user.Expirydate.Value.ToString("yyyy-MM-dd") : ""),
+                 new Claim("Address",user.Address) // Example role claim
             };
 
 

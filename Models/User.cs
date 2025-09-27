@@ -13,7 +13,15 @@ public partial class User
 
     public string Storename { get; set; } = null!;
 
+    public string? Address { get; set; }
+
+    public DateOnly? Startdate { get; set; }
+
+    public DateOnly? Expirydate { get; set; }
+
     public virtual ICollection<Item> Items { get; set; } = new List<Item>();
+
+    public virtual ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();
 
     public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }

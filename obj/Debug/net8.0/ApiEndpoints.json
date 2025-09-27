@@ -42,6 +42,53 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "finalhotelAPI.Controllers.PurchasesController",
+    "Method": "CreatePurchase",
+    "RelativePath": "api/Purchases",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "finalhotelAPI.Controllers.CreatePurchaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.PurchasesController",
+    "Method": "GetMyPurchases",
+    "RelativePath": "api/Purchases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.PurchasesController",
+    "Method": "GetPurchasesByDate",
+    "RelativePath": "api/Purchases/byDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "finalhotelAPI.Controllers.TransactionsController",
     "Method": "CreateTransaction",
     "RelativePath": "api/Transactions",
