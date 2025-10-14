@@ -6,6 +6,7 @@ D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\finalhotelAPI.runtimeconfig.j
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\finalhotelAPI.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\finalhotelAPI.pdb
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Humanizer.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -28,6 +29,12 @@ D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Npgsql.dll
@@ -42,6 +49,7 @@ D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Composition.Hosting.dl
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.Text.Json.dll
@@ -118,6 +126,7 @@ D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.AssemblyInfo.cs
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.csproj.CoreCompileInputs.cache
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.sourcelink.json
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\staticwebassets\msbuild.finalhotelAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -132,12 +141,3 @@ D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\refint\finalhotelAPI.dll
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.pdb
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.genruntimeconfig.cache
 D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\ref\finalhotelAPI.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\ionic\finalionic\finalhotelAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\ionic\finalionic\finalhotelAPI\obj\Debug\net8.0\finalhotelAPI.sourcelink.json
