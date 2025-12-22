@@ -108,7 +108,7 @@ namespace finalhotelAPI
            
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+           // if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
@@ -125,8 +125,9 @@ namespace finalhotelAPI
 
 
             app.MapControllers();
+            app.Run("http://localhost:5101");
+            //app.Run();
 
-            app.Run();
         }
     }
 }
