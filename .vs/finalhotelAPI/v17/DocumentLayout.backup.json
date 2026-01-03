@@ -3,52 +3,56 @@
   "WorkspaceRootPath": "D:\\ionic\\finalionic\\finalhotelAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\purchasescontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\purchasescontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\purchasescontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\purchasescontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|d:\\ionic\\finalionic\\finalhotelapi\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21E90AC-E699-4595-9516-D6B7F109A418}|finalhotelAPI.csproj|solutionrelative:models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,28 +74,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T11:14:30.671Z",
+              "DocumentIndex": 4,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAADwv6QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:28:52.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAmwB4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:42:41.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchasesController .cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\PurchasesController .cs",
+              "RelativeDocumentMoniker": "Controllers\\PurchasesController .cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\PurchasesController .cs",
+              "RelativeToolTip": "Controllers\\PurchasesController .cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAxwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:22:26.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "Models\\Purchase.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Purchase.cs",
+              "RelativeToolTip": "Models\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:20:20.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:34:11.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwHUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:04:46.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -108,95 +176,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Purchase.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Purchase.cs",
-              "RelativeDocumentMoniker": "Models\\Purchase.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Purchase.cs",
-              "RelativeToolTip": "Models\\Purchase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T12:20:20.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebDbContext.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Data\\WebDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\WebDbContext.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Data\\WebDbContext.cs",
-              "RelativeToolTip": "Data\\WebDbContext.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:01:16.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PurchasesController .cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\PurchasesController .cs",
-              "RelativeDocumentMoniker": "Controllers\\PurchasesController .cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\PurchasesController .cs",
-              "RelativeToolTip": "Controllers\\PurchasesController .cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAIwC8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T12:22:26.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionsController.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\TransactionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\TransactionsController.cs",
-              "RelativeToolTip": "Controllers\\TransactionsController.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAA8wDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:42:41.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
               "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Item.cs",
               "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:19:03.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "WebDbContext.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Data\\WebDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\WebDbContext.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Data\\WebDbContext.cs",
+              "RelativeToolTip": "Data\\WebDbContext.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T12:34:11.902Z"
+              "WhenOpened": "2025-09-15T11:01:16.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transactionitem.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Transactionitem.cs",
+              "RelativeDocumentMoniker": "Models\\Transactionitem.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Transactionitem.cs",
+              "RelativeToolTip": "Models\\Transactionitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:31:14.32Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ItemsController.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\ItemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\ItemsController.cs",
-              "RelativeToolTip": "Controllers\\ItemsController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDEAAAA2AAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T07:28:52.916Z"
+              "WhenOpened": "2025-09-15T11:02:08.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T11:14:30.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -208,31 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwBMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:02:08.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:04:46.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "finalhotelAPI.http",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\finalhotelAPI.http",
               "RelativeDocumentMoniker": "finalhotelAPI.http",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
@@ -265,22 +282,6 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:19:08.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Transactionitem.cs",
-              "DocumentMoniker": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Transactionitem.cs",
-              "RelativeDocumentMoniker": "Models\\Transactionitem.cs",
-              "ToolTip": "D:\\ionic\\finalionic\\finalhotelAPI\\Models\\Transactionitem.cs",
-              "RelativeToolTip": "Models\\Transactionitem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:31:14.32Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

@@ -116,6 +116,58 @@ namespace finalhotelAPI.Controllers
 
             return Ok(purchases);
         }
+
+
+        // PUT: api/purchases/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePurchase(int id, [FromBody] CreatePurchaseDto dto)
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized("Invalid token.");
+
+            int userId = int.Parse(userIdClaim);
+
+            var purchase = await _context.Purchases
+                .FirstOrDefaultAsync(p => p.Purchaseid == id && p.Userid == userId);
+
+            if (purchase == null)
+                return NotFound("Purchase not found.");
+
+            purchase.Itemname = dto.ItemName;
+            purchase.Quantity = dto.Quantity;
+            purchase.Priceatpurchase = dto.PriceAtPurchase;
+            purchase.Paymentmethod = dto.PaymentMethod;
+            purchase.Purchasedate = dto.Purchasedate ?? purchase.Purchasedate;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "Purchase updated successfully" });
+        }
+
+
+        // DELETE: api/purchases/{id}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePurchase(int id)
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized("Invalid token.");
+
+            int userId = int.Parse(userIdClaim);
+
+            var purchase = await _context.Purchases
+                .FirstOrDefaultAsync(p => p.Purchaseid == id && p.Userid == userId);
+
+            if (purchase == null)
+                return NotFound("Purchase not found.");
+
+            _context.Purchases.Remove(purchase);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "Purchase deleted successfully" });
+        }
+
     }
 
     // DTOs

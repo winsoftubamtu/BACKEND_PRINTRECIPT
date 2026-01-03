@@ -19,6 +19,8 @@ public partial class User
 
     public DateOnly? Expirydate { get; set; }
 
+    public string? Phonenumber { get; set; }
+
     public virtual ICollection<Item> Items { get; set; } = new List<Item>();
 
     public virtual ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();

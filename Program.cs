@@ -114,7 +114,11 @@ namespace finalhotelAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //he if chi condition local la run karayla aani production la pn run karayla
+            if (!app.Environment.IsDevelopment()) {
+                app.UseHttpsRedirection();
+            }
+               
 
 
             // Enable CORS before authentication/authorization

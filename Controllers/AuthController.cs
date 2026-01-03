@@ -34,7 +34,7 @@ namespace finalhotelAPI.Controllers
             }
 
             var token = GenerateJwtToken(user);
-            return Ok(new { Token = token, StoreName = user.Storename, Passwordhash = user.Passwordhash, Expirydate=user.Expirydate, Address=user.Address });
+            return Ok(new { Token = token, StoreName = user.Storename, Passwordhash = user.Passwordhash, Expirydate=user.Expirydate, Address=user.Address, PhoneNo=user.Phonenumber, Username=user.Username });
         }
 
         private string GenerateJwtToken(User user)
@@ -51,7 +51,8 @@ namespace finalhotelAPI.Controllers
                  new Claim("StoreName", user.Storename),
                  new Claim("Passwordhash", user.Passwordhash),
                  new Claim("Expirydate", user.Expirydate.HasValue ? user.Expirydate.Value.ToString("yyyy-MM-dd") : ""),
-                 new Claim("Address",user.Address) // Example role claim
+                 new Claim("Address",user.Address), // Example role claim
+                 new Claim("PhoneNo",user.Phonenumber)
             };
 
 
