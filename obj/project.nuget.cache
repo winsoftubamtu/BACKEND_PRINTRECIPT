@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P/wmnYhmgSE=",
+  "dgSpecHash": "DX0Aj9r/Hs8=",
   "success": true,
-  "projectFilePath": "D:\\ionic\\finalionic\\finalhotelAPI\\finalhotelAPI.csproj",
+  "projectFilePath": "D:\\Ayush_R&D_\\ionic\\finalionic\\finalhotelAPI\\finalhotelAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.20\\microsoft.aspnetcore.authentication.jwtbearer.8.0.20.nupkg.sha512",

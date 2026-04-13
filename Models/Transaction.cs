@@ -15,6 +15,14 @@ public partial class Transaction
 
     public DateTime? Createdat { get; set; }
 
+    public int? Orderid { get; set; }
+
+    public int? Staffid { get; set; }
+
+    public virtual Order? Order { get; set; }
+
+    public virtual Staffmember? Staff { get; set; }
+
     public virtual ICollection<Transactionitem> Transactionitems { get; set; } = new List<Transactionitem>();
 
     public virtual User User { get; set; } = null!;

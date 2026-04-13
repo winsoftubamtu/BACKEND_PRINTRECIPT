@@ -21,9 +21,15 @@ public partial class User
 
     public string? Phonenumber { get; set; }
 
+    public virtual ICollection<Hoteltable> Hoteltables { get; set; } = new List<Hoteltable>();
+
     public virtual ICollection<Item> Items { get; set; } = new List<Item>();
 
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+
     public virtual ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();
+
+    public virtual ICollection<Staffmember> Staffmembers { get; set; } = new List<Staffmember>();
 
     public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }
