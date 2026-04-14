@@ -181,7 +181,7 @@ namespace finalhotelAPI.Controllers
         {
             var claims = new[]
             {
-                new Claim(ClaimTypes.NameIdentifier, staff.Staffid.ToString()),
+                new Claim(ClaimTypes.NameIdentifier, staff.Userid.ToString()),
                 new Claim("UserId", staff.Userid.ToString()),   // Owner's UserId
                 new Claim("Username", staff.Username),
                 new Claim("Role", staff.Role),

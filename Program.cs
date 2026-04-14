@@ -58,8 +58,8 @@ namespace finalhotelAPI
 
                     });
             });
-            builder.Services.AddAuthentication(); // if using JWT or Identity
-            builder.Services.AddAuthorization();
+            //builder.Services.AddAuthentication(); // if using JWT or Identity
+            //builder.Services.AddAuthorization();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             // builder.Services.AddSwaggerGen();
