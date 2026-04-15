@@ -16,6 +16,90 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "GetPendingOrders",
+    "RelativePath": "api/Chef/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "GetOrderDetail",
+    "RelativePath": "api/Chef/orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "StartPreparing",
+    "RelativePath": "api/Chef/orders/{id}/preparing",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "MarkOrderReady",
+    "RelativePath": "api/Chef/orders/{id}/ready",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "MarkOrderServed",
+    "RelativePath": "api/Chef/orders/{id}/served",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.ChefController",
+    "Method": "GetReadyOrders",
+    "RelativePath": "api/Chef/orders/ready",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "finalhotelAPI.Controllers.ItemsController",
     "Method": "GetMyItems",
     "RelativePath": "api/Items",
@@ -72,6 +156,117 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "GetTodayOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "finalhotelAPI.Controllers.PlaceOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "AddItemsToOrder",
+    "RelativePath": "api/Orders/{id}/additems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "items",
+        "Type": "System.Collections.Generic.List\u00601[[finalhotelAPI.Controllers.OrderItemRequest, finalhotelAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "CancelOrder",
+    "RelativePath": "api/Orders/{id}/cancel",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "finalhotelAPI.Controllers.OrdersController",
+    "Method": "GetOrdersByTable",
+    "RelativePath": "api/Orders/table/{tableId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableId",
         "Type": "System.Int32",
         "IsRequired": true
       }
